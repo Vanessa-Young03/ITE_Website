@@ -1,0 +1,162 @@
+@charset "utf-8";
+/* CSS Document */
+
+#body{
+	background-color: lightblue;
+}
+
+#mainHeader{
+	text-align: center;
+}
+
+#mainHeader ul{
+	background-color: lightgrey;
+	list-style-type: none;
+	padding: 10px;
+}
+
+#mainHeader ul li{
+	display: inline;
+	padding: 50px;
+}
+
+
+
+#mainHeader a{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#mainHeader a:hover{
+	color: black;
+}
+
+
+.coupon{
+	clear: both;
+	display: table;
+}
+
+.promotions{
+	padding-top: 5px;
+	background-color: #F1F1F1;
+}
+
+.promo{
+	background: #CCCCCC;
+	padding: 3px;
+}
+
+.expire{
+	color: red;
+}
+
+.heading{
+	text-align: center;
+}
+
+.forms{
+	padding: 16px;
+	background-color: white;
+}
+
+input[type=text], input[type=password]{
+	width: 100%;
+	padding: 15px;
+	margin: 5px 0 22px 0;
+	display: inline-block;
+	border: none;
+	background: #F1F1F1;
+}
+
+input[type=text]:focus, input[type=password]:focus{
+	background-color: #DDDDDD;
+	outline: none;
+}
+
+hr{
+	border: 1px solid #F1F1F1;
+	margin-bottom: 25px;
+}
+
+.registerbtn{
+	background-color: #4CAF50;
+	color: white;
+	padding: 16px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+	opacity: 0.9;
+}
+
+.registerbtn:hover{
+	opacity: 1;
+}
+
+
+a{
+	color: dodgerblue;
+}
+
+.signin{
+	background-color: #F1F1F1;
+	text-align: center;
+	padding: 10px;
+}
+
+input[type=text], select, textarea{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #CCCCCC;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit]{
+	background-color: #4CAF50;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+}
+
+input[type=submit]:hover{
+	background-color: #45a049;
+}
+
+.contact{
+	border-radius: 5px;
+	background-color: #F2F2F2;
+	padding: 10px;
+}
+
+.row:after{
+	content:"";
+	display: table;
+	clear: both;
+}
+
+.column{
+	float: left;
+	width: 50%;
+	margin-top: 6px;
+	padding: 20px;
+}
+
+.contactheading{
+	text-align: center;
+}
+
+#mainFooter{
+	background-color: lightgrey;
+	clear: both;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	padding: 20px;
+}
+
+
+
